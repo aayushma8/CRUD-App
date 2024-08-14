@@ -1,16 +1,16 @@
 .main-page-container {
-    text-align: center; /* Center-align text horizontally */
-    padding: 20px; /* Add some padding for spacing */
+    text-align: center; 
+    padding: 20px;
   }
   
   .main-page-container h1,
   .main-page-container h2 {
-    margin-bottom: 20px; /* Add space below headings */
+    margin-bottom: 20px; 
   }
   
   .main-page-container form,
   .main-page-container table {
-    margin: 0 auto; /* Center-align the form and table */
-    max-width: 800px; /* Set a maximum width for better readability */
+    margin: 0 auto; 
+    max-width: 800px;
   }
   
