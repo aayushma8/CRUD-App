@@ -1,4 +1,4 @@
-/* Container for the DataTable component */
+
 .data-table-container {
     margin: 20px;
     padding: 10px;
@@ -8,14 +8,14 @@
     margin-left: 20px;
   }
   
-  /* Styling the table */
+
   .data-table-container table {
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 20px;
   }
   
-  /* Table header styling */
+
   .data-table-container thead {
     background-color: #007bff;
     color: white;
@@ -27,7 +27,7 @@
     border-bottom: 2px solid #ddd;
   }
   
-  /* Table row styling */
+ 
   .data-table-container tbody tr:nth-child(even) {
     background-color: #f2f2f2;
   }
@@ -37,7 +37,7 @@
     border-bottom: 1px solid #ddd;
   }
   
-  /* Action button styling */
+ 
   .data-table-container button {
     margin-right: 5px;
     padding: 5px 10px;
