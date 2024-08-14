@@ -14,13 +14,13 @@ const DataTable = () => {
       setData(storedData);
     };
 
-    // Fetch data when component mounts
+  
     handleStorageChange();
 
-    // Add an event listener for storage changes
+  
     window.addEventListener('storage', handleStorageChange);
 
-    // Cleanup event listener on unmount
+   
     return () => {
       window.removeEventListener('storage', handleStorageChange);
     };
